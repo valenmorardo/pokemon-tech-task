@@ -7,6 +7,7 @@ import {
 } from "@ionic/react";
 
 import Title from "../../components/title/Title";
+import PokemonesContainer from "../../components/PokemonesContainer/PokemonesContainer";
 import "./Home.css";
 
 const Home: React.FC = () => {
@@ -14,7 +15,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonContent fullscreen>
         <Title />
-        
+        <PokemonesContainer />
       </IonContent>
     </IonPage>
   );
