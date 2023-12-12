@@ -1,7 +1,9 @@
 import axios from "axios";
+import { Dispatch } from "redux";
 
-const getPokemonesAction = () => {
-  return async (dispatch: any) => {
+
+const getPokemonesAction: any = () => {
+  return async (dispatch: Dispatch)  => {
     try {
       const pokemones = await axios("http://localhost:3000/api/pokemones");
 
@@ -12,7 +14,7 @@ const getPokemonesAction = () => {
     } catch (error: any) {
       return dispatch({
         type: "GET_POKEMONES",
-        payload: error.response.data,
+        payload: error.response.data, 
       });
     }
   };
