@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d build",
+    "build": "babel src -d build && cpx src/libs/dataLocalPokemones.json build/libs",
     "start": "node build/index.js"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.6",
     "babel-plugin-module-resolver": "^5.0.0",
+    "cpx": "^1.5.0",
     "dotenv": "^16.3.1",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-node": "^11.1.0",
