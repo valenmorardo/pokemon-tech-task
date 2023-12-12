@@ -20,6 +20,8 @@ const PokemonesContainer = () => {
   const PokemonesRedux = useSelector((state: any) => state.pokemones);
   const pokemones = PokemonesRedux.data?.pokemon_v2_pokemon;
 
+  const error = useSelector((state: any) => state.error);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -49,7 +51,9 @@ const PokemonesContainer = () => {
 
   return (
     <>
-      {pokemones?.length ? (
+      {error.status ? (
+        <h1> HUBO UN ERRROR EN EL SERVIDOR</h1>
+      ) : pokemones?.length ? (
         <IonContent>
           <IonRefresher
             slot="fixed"
