@@ -1,6 +1,6 @@
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
-import env from '@config/var-environments';
+import env from './var-environments.js'
 import express from 'express';
 
 const server = express();
