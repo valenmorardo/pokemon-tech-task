@@ -16,8 +16,9 @@ module.exports = {
 		  "module-resolver",
 		  {
 			"root": ["./src/index.js"], 
-			/* "alias": {
-			} */
+			"alias": {
+				"@config": '.src/config'
+			}
 		  }
 		]
 	  ]
