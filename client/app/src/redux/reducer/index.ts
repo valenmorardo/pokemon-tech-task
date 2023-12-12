@@ -1,6 +1,6 @@
 const initialState = {
   pokemones: [],
-  error: {}
+  error: {},
 };
 
 const rootReducer = (state = initialState, action: any) => {
@@ -14,9 +14,9 @@ const rootReducer = (state = initialState, action: any) => {
     case "ERROR":
       return {
         ...state,
-       error: action.payload
+        error: action.payload,
       };
-      
+
     default:
       return state;
   }

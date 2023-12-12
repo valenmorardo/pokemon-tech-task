@@ -11,7 +11,7 @@ const getPokemonesApi: any = () => {
         payload: pokemones.data,
       });
     } catch (error: any) {
-      console.log(error.response.data)
+      console.log(error.response.data);
       return dispatch({
         type: "ERROR",
         payload: error.response.data,

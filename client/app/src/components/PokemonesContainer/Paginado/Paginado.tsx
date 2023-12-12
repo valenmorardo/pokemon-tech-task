@@ -22,7 +22,7 @@ const Paginado = ({ pagina, setPagina, maximo }) => {
   return (
     <div>
       <IonButton onClick={previousPage} disabled={pagina === 1 || pagina < 1}>
-        <IonIcon slot="icon-only" icon={arrowForwardCircle}></IonIcon>
+        <IonIcon slot="icon-only" icon={arrowBackCircle}></IonIcon>
       </IonButton>
 
       <IonText>{pagina}</IonText>
@@ -33,7 +33,7 @@ const Paginado = ({ pagina, setPagina, maximo }) => {
         onClick={nextPage}
         disabled={pagina === Math.ceil(maximo) || pagina > Math.ceil(maximo)}
       >
-        <IonIcon slot="icon-only" icon={arrowBackCircle}></IonIcon>
+        <IonIcon slot="icon-only" icon={arrowForwardCircle}></IonIcon>
       </IonButton>
     </div>
   );

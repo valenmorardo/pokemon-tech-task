@@ -6,7 +6,7 @@ const Cards = ({ pokemones }) => {
   return (
     <div>
       {pokemones?.map((pokemon) => (
-        <Card {...pokemon} key={pokemon.id}/>
+        <Card {...pokemon} key={pokemon.id} />
       ))}
     </div>
   );
