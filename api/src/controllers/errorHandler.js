@@ -3,6 +3,7 @@ const errorHandler = (error, _req, res, _next) => {
 
 	return res.status(status || 500).send({
 		error_message: error.message,
+		error_status: status
 	});
 };
 
