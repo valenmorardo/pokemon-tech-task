@@ -6,15 +6,17 @@ const getPokemonesApi: any = () => {
     try {
       const pokemones = await axios("http://localhost:3000/api/pokemones");
 
+      
+      
       return dispatch({
         type: "GET_POKEMONES",
         payload: pokemones.data,
       });
     } catch (error: any) {
-      console.log(error.response.data);
+      console.log(error)
       return dispatch({
         type: "ERROR",
-        payload: error.response.data,
+        payload: error.response,
       });
     }
   };
@@ -25,11 +27,13 @@ const getPokemonesLocal: any = () => {
     try {
       const pokemones = await axios("http://localhost:3000/api/pokemonesLocal");
 
+      
       return dispatch({
         type: "GET_POKEMONES",
         payload: pokemones.data,
       });
     } catch (error: any) {
+      console.log(error)
       return dispatch({
         type: "ERROR",
         payload: error,
