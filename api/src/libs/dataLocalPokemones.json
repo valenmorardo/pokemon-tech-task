@@ -1,0 +1,678 @@
+{
+    "data": {
+        "pokemon_v2_pokemon": [
+            {
+                "id": 1,
+                "name": "bulbasaur",
+                "base_experience": 64,
+                "height": 7,
+                "weight": 69,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 65,
+                      "name": "overgrow"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 34,
+                      "name": "chlorophyll"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "ivysaur",
+                "base_experience": 142,
+                "height": 10,
+                "weight": 130,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 65,
+                      "name": "overgrow"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 34,
+                      "name": "chlorophyll"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "venusaur",
+                "base_experience": 263,
+                "height": 20,
+                "weight": 1000,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 65,
+                      "name": "overgrow"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 34,
+                      "name": "chlorophyll"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "charmander",
+                "base_experience": 62,
+                "height": 6,
+                "weight": 85,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 66,
+                      "name": "blaze"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 94,
+                      "name": "solar-power"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "charmeleon",
+                "base_experience": 142,
+                "height": 11,
+                "weight": 190,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 66,
+                      "name": "blaze"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 94,
+                      "name": "solar-power"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "charizard",
+                "base_experience": 267,
+                "height": 17,
+                "weight": 905,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 66,
+                      "name": "blaze"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 94,
+                      "name": "solar-power"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "squirtle",
+                "base_experience": 63,
+                "height": 5,
+                "weight": 90,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 67,
+                      "name": "torrent"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 44,
+                      "name": "rain-dish"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "wartortle",
+                "base_experience": 142,
+                "height": 10,
+                "weight": 225,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 67,
+                      "name": "torrent"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 44,
+                      "name": "rain-dish"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 9,
+                "name": "blastoise",
+                "base_experience": 265,
+                "height": 16,
+                "weight": 855,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 67,
+                      "name": "torrent"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 44,
+                      "name": "rain-dish"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 10,
+                "name": "caterpie",
+                "base_experience": 39,
+                "height": 3,
+                "weight": 29,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 19,
+                      "name": "shield-dust"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 50,
+                      "name": "run-away"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "name": "metapod",
+                "base_experience": 72,
+                "height": 7,
+                "weight": 99,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 61,
+                      "name": "shed-skin"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 12,
+                "name": "butterfree",
+                "base_experience": 198,
+                "height": 11,
+                "weight": 320,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 14,
+                      "name": "compound-eyes"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 110,
+                      "name": "tinted-lens"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "name": "weedle",
+                "base_experience": 39,
+                "height": 3,
+                "weight": 32,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 19,
+                      "name": "shield-dust"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 50,
+                      "name": "run-away"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 14,
+                "name": "kakuna",
+                "base_experience": 72,
+                "height": 6,
+                "weight": 100,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 61,
+                      "name": "shed-skin"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "name": "beedrill",
+                "base_experience": 178,
+                "height": 10,
+                "weight": 295,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 68,
+                      "name": "swarm"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 97,
+                      "name": "sniper"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "name": "pidgey",
+                "base_experience": 50,
+                "height": 3,
+                "weight": 18,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 51,
+                      "name": "keen-eye"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 77,
+                      "name": "tangled-feet"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 145,
+                      "name": "big-pecks"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "pidgeotto",
+                "base_experience": 122,
+                "height": 11,
+                "weight": 300,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 51,
+                      "name": "keen-eye"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 77,
+                      "name": "tangled-feet"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 145,
+                      "name": "big-pecks"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "pidgeot",
+                "base_experience": 216,
+                "height": 15,
+                "weight": 395,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 51,
+                      "name": "keen-eye"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 77,
+                      "name": "tangled-feet"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 145,
+                      "name": "big-pecks"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 19,
+                "name": "rattata",
+                "base_experience": 51,
+                "height": 3,
+                "weight": 35,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 50,
+                      "name": "run-away"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 62,
+                      "name": "guts"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 55,
+                      "name": "hustle"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 20,
+                "name": "raticate",
+                "base_experience": 145,
+                "height": 7,
+                "weight": 185,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 50,
+                      "name": "run-away"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 62,
+                      "name": "guts"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 55,
+                      "name": "hustle"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 21,
+                "name": "spearow",
+                "base_experience": 52,
+                "height": 3,
+                "weight": 20,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 51,
+                      "name": "keen-eye"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 97,
+                      "name": "sniper"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "name": "fearow",
+                "base_experience": 155,
+                "height": 12,
+                "weight": 380,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 51,
+                      "name": "keen-eye"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 97,
+                      "name": "sniper"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 23,
+                "name": "ekans",
+                "base_experience": 58,
+                "height": 20,
+                "weight": 69,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 22,
+                      "name": "intimidate"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 61,
+                      "name": "shed-skin"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 127,
+                      "name": "unnerve"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "name": "arbok",
+                "base_experience": 157,
+                "height": 35,
+                "weight": 650,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 22,
+                      "name": "intimidate"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 61,
+                      "name": "shed-skin"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 127,
+                      "name": "unnerve"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 25,
+                "name": "pikachu",
+                "base_experience": 112,
+                "height": 4,
+                "weight": 60,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 9,
+                      "name": "static"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 31,
+                      "name": "lightning-rod"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 26,
+                "name": "raichu",
+                "base_experience": 243,
+                "height": 8,
+                "weight": 300,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 9,
+                      "name": "static"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 31,
+                      "name": "lightning-rod"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 27,
+                "name": "sandshrew",
+                "base_experience": 60,
+                "height": 6,
+                "weight": 120,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 8,
+                      "name": "sand-veil"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 146,
+                      "name": "sand-rush"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 28,
+                "name": "sandslash",
+                "base_experience": 158,
+                "height": 10,
+                "weight": 295,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 8,
+                      "name": "sand-veil"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 146,
+                      "name": "sand-rush"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 29,
+                "name": "nidoran-f",
+                "base_experience": 55,
+                "height": 4,
+                "weight": 70,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 38,
+                      "name": "poison-point"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 79,
+                      "name": "rivalry"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 55,
+                      "name": "hustle"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "name": "nidorina",
+                "base_experience": 128,
+                "height": 8,
+                "weight": 200,
+                "pokemon_v2_pokemonabilities": [
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 38,
+                      "name": "poison-point"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 79,
+                      "name": "rivalry"
+                    }
+                  },
+                  {
+                    "pokemon_v2_ability": {
+                      "id": 55,
+                      "name": "hustle"
+                    }
+                  }
+                ]
+              }
+        ]
+    }
+}
