@@ -7,5 +7,5 @@ export const getPokemones = async (req, res) => {
 		query,
 	});
 
-	res.json(result.data)
+	res.status(200).send(result.data)
 };
