@@ -49,10 +49,10 @@ const PokemonesContainer = () => {
 
   return (
     <>
-      {/* error.status ? (
+      {error.status ? (
         <h1> HUBO UN ERRROR EN EL SERVIDOR</h1>
-      ) : */ pokemones?.length ? (
-        <IonContent>
+      ) : pokemones?.length ? (
+        <div>
           <IonRefresher
             slot="fixed"
             pullFactor={0.5}
@@ -66,7 +66,7 @@ const PokemonesContainer = () => {
           <Paginado pagina={pagina} setPagina={setPagina} maximo={maximo} />
           <Cards pokemones={currentPokemones} />
           <Paginado pagina={pagina} setPagina={setPagina} maximo={maximo} />
-        </IonContent>
+        </div>
       ) : (
         <IonLoading
           message="Loading data..."
