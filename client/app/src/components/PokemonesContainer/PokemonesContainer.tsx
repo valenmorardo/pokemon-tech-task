@@ -13,6 +13,7 @@ import {
   RefresherEventDetail,
 } from "@ionic/react";
 import Paginado from "./Paginado/Paginado";
+import { Dispatch } from "redux";
 
 const PokemonesContainer = () => {
   const dispatch = useDispatch();
@@ -22,15 +23,15 @@ const PokemonesContainer = () => {
 
   const error = useSelector((state: any) => state.error);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        await dispatch(getPokemonesApi());
-      } catch (error) {
-        await dispatch(getPokemonesLocal());
-      }
-    };
+  const fetchData = async () => {
+    try {
+      await dispatch(getPokemonesApi());
+    } catch (error) {
+      await dispatch(getPokemonesLocal());
+    }
+  };
 
+  useEffect(() => {
     fetchData();
   }, []);
 
@@ -43,10 +44,14 @@ const PokemonesContainer = () => {
   );
 
   function handleRefresh(event: CustomEvent<RefresherEventDetail>) {
+    const start = performance.now();
+    fetchData();
+
+    const end = performance.now();
+    const dispatchTime = end - start;
     setTimeout(() => {
-      dispatch(getPokemonesApi());
       event.detail.complete();
-    }, 1000);
+    }, dispatchTime + 1000);
   }
 
   return (
