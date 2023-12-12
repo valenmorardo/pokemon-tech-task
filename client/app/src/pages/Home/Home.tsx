@@ -5,14 +5,16 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import ExploreContainer from "../../components/exploreContainer/ExploreContainer";
+
+import Title from "../../components/title/Title";
 import "./Home.css";
 
 const Home: React.FC = () => {
   return (
     <IonPage>
       <IonContent fullscreen>
-        <ExploreContainer />
+        <Title />
+        
       </IonContent>
     </IonPage>
   );
