@@ -3,6 +3,8 @@ import cookieParser from 'cookie-parser';
 import env from './var-environments.js'
 import express from 'express';
 
+import router from '../routes/index.routes.js';
+
 const server = express();
 
 server.set('port', env.PORT || 3001);
@@ -30,6 +32,15 @@ server.use((_req, res, next) => {
 	res.setHeader('Allow', 'GET, POST, OPTIONS, PUT, DELETE');
 	next();
 });
+
+
+server.get('/', (req, res) => {
+	res.send({
+		msg: 'hello pokemon',
+	});
+}) 
+
+server.use('/api', router)
 
 
 export default server;
