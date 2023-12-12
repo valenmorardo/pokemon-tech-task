@@ -1,6 +1,4 @@
-{
-    "data": {
-        "pokemon_v2_pokemon": [
+[
             {
                 "id": 1,
                 "name": "bulbasaur",
@@ -674,5 +672,3 @@
                 ]
               }
         ]
-    }
-}
